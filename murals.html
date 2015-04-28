@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Brad Mallett - Artist</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="screen">
+<link rel="stylesheet" href="fancybox/source/jquery.fancybox.css" type="text/css" media="screen" />
+</head>
+
+<body>
+	<div id="side">
+		<div id="nav">
+			<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="bio.html">BIO</a></li>
+				<li><a href="gallery.html">GALLERY</a></li>
+				<li><a href="contact.html">CONTACT</a></li>
+				<li><a id="twitter" href="https://twitter.com/bradalanmallett" target="_blank"><img src="images/twitter.svg"></a></li>
+				<li><a id="facebook" href="https://www.facebook.com/bradalanmallett?ref=hl" target="_blank"><img src="images/facebook.svg"></a></li>
+			</ul>
+
+			
+		</div>
+		<img id="signature" src="images/signature.svg" width="50%">
+	</div>
+	<div id="content-acrylic">
+		<div id="thumbs">
+			<h1>MURALS</h1>
+			<a class="grouped_elements" rel="group1" href="images/murals/burkhart-farms.jpg"><img src="images/murals/thumbs/burkhart-farms-thumb.jpg" alt=""/></a>
+
+			<a class="grouped_elements" rel="group1" href="images/murals/garage-mural.jpg"><img src="images/murals/thumbs/garage-mural-thumb.jpg" alt=""/></a>
+
+			<a class="grouped_elements" rel="group1" href="images/murals/garage-mural2.jpg"><img src="images/murals/thumbs/garage-mural2-thumb.jpg" alt=""/></a>
+
+			<a class="grouped_elements" rel="group1" href="images/murals/garage-mural3.jpg"><img src="images/murals/thumbs/garage-mural3-thumb.jpg" alt=""/></a>
+
+			<a class="grouped_elements" rel="group1" href="images/murals/woodbury-county.jpg"><img src="images/murals/thumbs/woodbury-county-thumb.jpg" alt=""/></a>
+
+
+
+		</div>
+	</div>
+
+<script src="http://code.jquery.com/jquery.js"></script>
+
+<script type="text/javascript" src="fancybox/source/jquery.fancybox.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+      $(".grouped_elements").fancybox();
+    });
+</script>
+</body>
+</html>
